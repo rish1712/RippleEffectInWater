@@ -24,7 +24,7 @@ X. Zhang and G. Yang, "Ripple simulation based on mass-spring model and image sp
   <br>• The normal are created by calculating the unit vector normal to given 3 points. The triangles are formed by this logic:<br>
 If disturbance is added to the RED point, the triangles are formed with the RED, GREEN, GREEN points and the RED, PURPLE, PURPLE points.
 Therefore, the triangles formed are the ORANGE and BLUE triangles. This way the ripples are carry fordwarded<br>.
-<img src="triangles.png" alt="My test image" width="500" height="300">
+![Alt text](triangles.PNG?raw=true "Title")
 <br>
 The (red,green,green) points are (j-w, i-w, amplitude[s][j][i],j+1-w, i-w, amplitude[s][j+1][i],j+1-w, i+1-w, amplitude[s][j+1][i+1])) (Here j and i is loop variable, s stand for initial index and w=scene/2).
 The (red,purple,purple) points are (j-w, i+1-w, amplitude[s][j][i+1],  j-w, i-w, amplitude[s][j][i], j+1-w, i+1-w, amplitude[s][j+1][i+1]) (Here j and i is loop variable, s stand for initial index and w=scene/2).
